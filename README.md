@@ -73,7 +73,7 @@ To update an existing project, that was created using cruft, run `cruft update` 
 If there are any updates, cruft will have you review them before applying. If you accept the changes cruft will apply them to your project
 and update the `.cruft.json` file for you.
 
-!!! tip
+Tips :-
     Sometimes certain files just aren't good fits for updating. Such as test cases or `__init__` files. You can tell cruft to always skip updating these files on a project by project basis by added them
     to a skip section within your .cruft.json file:
 
